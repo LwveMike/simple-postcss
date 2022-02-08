@@ -1,1 +1,1 @@
-.container{border:1px solid #000;display:flex}.container *{border:1px solid green}
+.container{background-color:#ff0;border:1px solid #000;display:flex}.container *{border:1px solid green;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}

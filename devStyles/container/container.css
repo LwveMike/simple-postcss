@@ -1,8 +1,16 @@
+$containerBackgroundColor: yellow;
+$containerBorderColor: black;
+
+$containerItemBorderColor: green;
+
+
 .container {
     display: flex;
-    border: 1px solid black;
+    background-color: $containerBackgroundColor;
+    border: 1px solid $containerBorderColor;
 
     & * {
-        border: 1px solid green;
+        border: 1px solid $containerItemBorderColor;
+        user-select: none;
     }
 }
